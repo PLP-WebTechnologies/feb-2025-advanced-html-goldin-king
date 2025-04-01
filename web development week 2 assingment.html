@@ -1,0 +1,85 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Multimedia Webpage Assignment</title>
+</head>
+<body>
+
+    <!-- Multimedia Section -->
+    <h2>Background Music</h2>
+    <audio controls>
+        <source src="audio/music.mp3" type="audio/mp3">
+        
+    </audio>
+
+    <h2>Introduction Video</h2>
+    <video width="320" height="240" controls>
+        <source src="video/introduction.mp4" type="video/mp4">
+       
+    </video>
+
+    <!-- Registration Form -->
+    <h2>Registration Form</h2>
+    <form action="/submit" method="post">
+        <label for="username">Username:</label>
+        <input type="text" id="username" name="username" required minlength="4" placeholder="Enter username"><br><br>
+
+        <label for="email">Email:</label>
+        <input type="email" id="email" name="email" required placeholder="Enter email"><br><br>
+
+        <label for="password">Password:</label>
+        <input type="password" id="password" name="password" required minlength="6" placeholder="Enter password"><br><br>
+
+        <input type="submit" value="Register">
+    </form>
+
+    <!-- Embedded Image -->
+    <h2>Embedded Image</h2>
+    <img src="image/landscape.jpg" alt="Beautiful Landscape" width="500">
+
+    <!-- Product Table -->
+    <h2>Product Table</h2>
+    <table border="1">
+        <tr>
+            <th>Product Name</th>
+            <th>Price</th>
+            <th>Quantity</th>
+        </tr>
+        <tr>
+            <td>Product 1</td>
+            <td>$20</td>
+            <td>50</td>
+        </tr>
+        <tr>
+            <td>Product 2</td>
+            <td>$35</td>
+            <td>30</td>
+        </tr>
+        <tr>
+            <td>Product 3</td>
+            <td>$15</td>
+            <td>100</td>
+        </tr>
+    </table>
+
+    <!-- Shopping List -->
+    <h2>Shopping List</h2>
+    <ul>
+        <li>Apples</li>
+        <li>Bananas</li>
+        <li>Carrots</li>
+    </ul>
+
+    <!-- Ordered List of Steps -->
+    <h2>Steps for Registration</h2>
+    <ol>
+        <li>Enter your username</li>
+        <li>Provide an email address</li>
+        <li>Set up a password</li>
+        <li>Submit the form</li>
+    </ol>
+
+</body>
+</html>
